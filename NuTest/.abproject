@@ -15,14 +15,16 @@
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
   "AndroidPermissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_MOCK_LOCATION",
     "android.permission.INTERNET"
   ],
   "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
+    "Portrait"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "FrameworkVersion": "1.5.2",
-  "Framework": "NativeScript"
+  "Framework": "NativeScript",
+  "iOSDeploymentTarget": "7.1"
 }
